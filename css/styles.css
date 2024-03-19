@@ -41,6 +41,49 @@ body {
     line-height: .75;
 }
 
-.navbar-brand a:hover, .navbar-brand a:focus {
+.navbar-brand a, .navbar-brand a:hover, .navbar-brand a:focus {
     text-decoration: none;
+}
+
+.nav-icon {
+    width: 50px;
+    height: 30px;
+}
+
+#nav-list {
+    padding-top: 10px;
+}
+
+#nav-list a {
+    color: #951C49;
+    text-align: center;
+}
+
+#nav-list a:hover {
+    background: #E7E7E7;
+    border-radius: 100%;
+}
+
+#phone {
+    margin-top: 5px;
+    text-align: right;
+}
+
+#phone a:hover {
+    border-radius: 5%;
+    font-size: 1.2em;
+}
+
+button.navbar-toggler {
+    clear: both;
+    margin-top: 10px;
+    border: 2px solid #800000;
+}
+
+.navbar-toggler-icon {
+    border: 2px solid #800000;
+}
+
+.button.navbar-toggler {
+    clear: both;
 }
