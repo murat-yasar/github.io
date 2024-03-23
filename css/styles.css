@@ -76,14 +76,74 @@ body {
 
 button.navbar-toggler {
     clear: both;
-    margin-top: 10px;
-    border: 2px solid #800000;
+    margin-top: 15px;
+    border: 1px solid #800000;
 }
 
 .navbar-toggler-icon {
-    border: 2px solid #800000;
+    border: 1px solid #800000;
 }
 
 .button.navbar-toggler {
     clear: both;
+}
+/* END NAVIGATION */
+
+.jumbotron {
+    margin: 10px 0 10px 0;
+    box-shadow: 0 0 50px #3f0c1f;
+    border: 2px solid #3f0c1f;
+}
+
+/****** Large Screens *****/
+@media (min-width: 1200px) {
+
+}
+
+/****** Medium Screens *****/
+@media (min-width: 992px) and (max-width: 1199px) {
+    .navbar-brand {
+        padding-top: 30px;
+        height: 80px;
+    }
+    .navbar-brand h1 {
+        min-width: 250px;
+        font-size: 1.5em;
+    }
+}
+
+/****** Small Screens *****/
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar-brand {
+        padding-top: 10px;
+        height: 80px;
+    }
+
+    .navbar-brand h1 {
+        min-width: 250px;
+        padding-top: 30px;
+        font-size: 2em;
+    }
+
+    #nav-list a:hover {
+        border-radius: 0%;
+    }
+}
+
+/****** Extra Small Screens *****/
+@media (max-width: 767px) {
+    .navbar-brand {
+        padding-top: 10px;
+        height: 80px;
+    }
+
+    .navbar-brand h1 {
+        min-width: 250px;
+        padding-top: 30px;
+        font-size: 5vw;
+    }
+
+    #nav-list a:hover {
+        border-radius: 0%;
+    }
 }
