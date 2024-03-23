@@ -87,7 +87,13 @@ button.navbar-toggler {
 .button.navbar-toggler {
     clear: both;
 }
-/* END HEADER */
+/* END NAVIGATION */
+
+.jumbotron {
+    margin: 10px 0 10px 0;
+    box-shadow: 0 0 50px #3f0c1f;
+    border: 2px solid #3f0c1f;
+}
 
 /****** Large Screens *****/
 @media (min-width: 1200px) {
