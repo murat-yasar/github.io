@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en tr">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- Styles and Fonts -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap">
+   <link rel="stylesheet" href="css/bootstrap.css">
+   <link rel="stylesheet" href="css/styles.css">
+   <title>Restaurant Page</title>
+</head>
+
+<body>
+   <nav id="header-nav" class="navbar navbar-expand-lg">
+      <div class="container">
+         <div class="navbar-header">
+            <a href="index.html" class="me-auto visible-lg visible-md d-none  d-md-inline">
+               <img id="logo-img" src="assets/logo/restaurant-logo.jpg" alt="Restaurant logo">
+            </a>
+         </div>
+         <div class="navbar-brand">
+            <a href="index.html">
+               <h1>Sedas Grillhouse</h1>
+            </a>
+         </div>
+         <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsable-nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+         </button>
+         <div id="collapsable-nav" class="collapse navbar-collapse">
+            <ul id="nav-list" class="nav navbar-nav ms-auto">
+               <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="menu-categories.html">
+                     <img src="assets/icons/book.svg" class="nav-icon" alt="Menu icon"><br class="hidden-xs"> Menu
+                  </a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">
+                     <img src="assets/icons/info-circle-fill.svg" class="nav-icon" alt="Info icon"><br class="hidden-xs"> About
+                  </a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">
+                     <img src="assets/icons/award-fill.svg" class="nav-icon" alt="Awards icon"><br class="hidden-xs"> Awards
+                  </a>
+               </li>
+               <li id="phone" class="nav-item hidden-xs">
+                  <a class="nav-link active" aria-current="page" href="tel:1234567890">
+                     <img src="assets/icons/telephone-fill.svg" class="nav-icon" alt="Phone icon">
+                     <span id="phone-message">home delivery</span><br>
+                     <span id="phone-number">+49 123 456 7890</span>
+                  </a>
+               </li>
+            </ul>
+         </div>
+      </div>
+   </nav>
+
+   <main id="main-content" class="container">
+      <h2 id="menu-categories-title" class="text-center">Menu Categories</h2>
+      <div class="text-center">Breakfasts are only available until 12.00</div>
+      <section class="row">
+         <div class="col-md-3 col-sm-4 col-xs-6 col-xxs-6">
+            <a href="single-category.html">
+               <div class="category-tile">
+                  <img width="200" height="200" src="assets/images/menu/chicken.jpg" alt="chicken">
+                  <span>Chicken</span>
+               </div>
+            </a>
+         </div>
+         <div class="col-md-3 col-sm-4 col-xs-6 col-xxs-12">
+            <a href="single-category.html">
+               <div class="category-tile">
+                  <img width="200" height="200" src="assets/images/menu/steak-1.jpg" alt="steak">
+                  <span>Steak</span>
+               </div>
+            </a>
+         </div>
+         <div class="col-md-3 col-sm-4 col-xs-6 col-xxs-12">
+            <a href="single-category.html">
+               <div class="category-tile">
+                  <img width="200" height="200" src="assets/images/menu/salmon.jpg" alt="salmon">
+                  <span>Fish</span>
+               </div>
+            </a>
+         </div>
+         <div class="col-md-3 col-sm-4 col-xs-6 col-xxs-12">
+            <a href="single-category.html">
+               <div class="category-tile">
+                  <img width="200" height="200" src="assets/images/menu/hamburger.jpg" alt="hamburger">
+                  <span>Hamburger</span>
+               </div>
+            </a>
+         </div>
+         <div class="col-md-3 col-sm-4 col-xs-6 col-xxs-12">
+            <a href="single-category.html">
+               <div class="category-tile">
+                  <img width="200" height="200" src="assets/images/menu/pizza.jpg" alt="pizza">
+                  <span>Pizza</span>
+               </div>
+            </a>
+         </div>
+         <div class="col-md-3 col-sm-4 col-xs-6 col-xxs-12">
+            <a href="single-category.html">
+               <div class="category-tile">
+                  <img width="200" height="200" src="assets/images/menu/salad.jpg" alt="salad">
+                  <span>Salad</span>
+               </div>
+            </a>
+         </div>
+      </section>
+   </main>
+
+   <footer class="panel-footer">
+      <div class="container">
+         <div class="row">
+            <section id="hours" class="col-sm-4 sect">
+               <span>Hours:</span><br>
+               Fri-Son: 12:00 - 24:00<br>
+               Tue-Thu: 12:00 - 22.00<br>
+               Mondays Closed
+               <hr class="visible-xs">
+            </section>
+            <section id="address" class="col-sm-4">
+               <span>Address:</span><br>
+               111, Somewhere Over the Rainbow<br>
+               40476 Düsseldorf<br>
+               <p>* Delivery area within 5 Km in 30 mins.</p>
+               <hr class="visible-xs">
+            </section>
+            <section id="testimonials" class="col-sm-4">
+               <span>Testimonials:</span><br>
+               <p>"The best Grillhouse in Düsseldorf!"</p>
+               <p>"Amazing food! Great service! Fast and friendly!"</p>
+               <hr class="visible-xs">
+            </section>
+         </div>
+         <div class="text-center">&copy; Developed by Murat Yasar, 2024</div>
+      </div>
+   </footer>
+
+   <!-- JQuery, Popper, Bootstrap -->
+   <script src="js/bootstrap.js"></script>
+   <script src="js/script.js"></script>
+</body>
+
+</html>
