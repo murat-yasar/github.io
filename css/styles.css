@@ -173,8 +173,49 @@ button.navbar-toggler {
 #menu-categories-title+div {
    margin-bottom: 50px;
 }
-
 /** END MENU-CATEGORIES **/
+
+/** MENU-ITEM **/
+.top-note {
+   padding-bottom: 10px;
+}
+.menu-item-tile {
+   margin-bottom: 25px;
+}
+.menu-item-tile .menu-item-price {
+   font-size: 1.1em;
+   text-align: left;
+   margin-top: -50px;
+   margin-left: 280px;
+}
+.menu-item-tile .menu-item-price span {
+   font-size: .6em;
+}
+.menu-item-photo {
+   position: relative;
+   overflow: hidden;
+   padding: 0;
+   margin: 0 -15px auto 10px;
+
+}
+.menu-item-photo div {
+   background-color: #3f0c1f;
+   text-align: center;
+}
+.img-responsive {
+   margin-top: 10px;
+}
+.menu-item-description {
+   font-size: .9em;
+   font-style: italic;
+}
+h3.menu-item-title {
+   margin: 0 0 10px;
+}
+.menu-item-details {
+   padding-right: 20px;
+}
+/** END MENU-ITEM **/
 
 /** FOOTER **/
 .panel-footer {
@@ -183,6 +224,7 @@ button.navbar-toggler {
    padding-bottom: 30px;
    border-top: 0;
    text-align: center;
+   background-color: #110000;
 }
 
 .panel-footer div.row {
@@ -243,15 +285,17 @@ button.navbar-toggler {
       padding-top: 10px;
       height: 80px;
    }
-
    .navbar-brand h1 {
       min-width: 250px;
       padding-top: 30px;
       font-size: 2em;
    }
-
    #nav-list a:hover {
       border-radius: 0%;
+   }
+
+   .menu-item-tile .menu-item-price {
+      margin-top: -100px;
    }
 }
 

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en tr">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- Styles and Fonts -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap">
+   <link rel="stylesheet" href="css/bootstrap.css">
+   <link rel="stylesheet" href="css/styles.css">
+   <title>Restaurant Page</title>
+</head>
+
+<body>
+   <nav id="header-nav" class="navbar navbar-expand-lg">
+      <div class="container">
+         <div class="navbar-header">
+            <a href="index.html" class="me-auto visible-lg visible-md d-none  d-md-inline">
+               <img id="logo-img" src="assets/logo/restaurant-logo.jpg" alt="Restaurant logo">
+            </a>
+         </div>
+         <div class="navbar-brand">
+            <a href="index.html">
+               <h1>Sedas Grillhouse</h1>
+            </a>
+         </div>
+         <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsable-nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+         </button>
+         <div id="collapsable-nav" class="collapse navbar-collapse">
+            <ul id="nav-list" class="nav navbar-nav ms-auto">
+               <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="menu-categories.html">
+                     <img src="assets/icons/book.svg" class="nav-icon" alt="Menu icon"><br class="hidden-xs"> Menu
+                  </a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">
+                     <img src="assets/icons/info-circle-fill.svg" class="nav-icon" alt="Info icon"><br class="hidden-xs"> About
+                  </a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">
+                     <img src="assets/icons/award-fill.svg" class="nav-icon" alt="Awards icon"><br class="hidden-xs"> Awards
+                  </a>
+               </li>
+               <li id="phone" class="nav-item hidden-xs">
+                  <a class="nav-link active" aria-current="page" href="tel:1234567890">
+                     <img src="assets/icons/telephone-fill.svg" class="nav-icon" alt="Phone icon">
+                     <span id="phone-message">home delivery</span><br>
+                     <span id="phone-number">+49 123 456 7890</span>
+                  </a>
+               </li>
+            </ul>
+         </div>
+      </div>
+   </nav>
+
+   <main id="main-content" class="container">
+      <h2 id="meal-category-title" class="text-center">Steaks</h2>
+      <div class="text-center top-note">Steaks can be served after 12.00</div>
+      <section class="row">
+         <div class="menu-item-tile col-md-6">
+            <div class="row-item">
+               <div class="menu-item-photo">
+                  <div>S01</div>
+                  <img class="img-responsive" width="250" height="150" src="/assets/images/menu/steak-1.jpg" alt="beef steak" >
+                  <p class="menu-item-price">12.95 €<span> (250g)</span><br>15.95 €<span> (400g)</span></p>
+                  <div class="menu-item-description">
+                     <h3 class="menu-item-title">Beef Steak</h3>
+                     <p class="menu-item-details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere blanditiis sit omnis tenetur incidunt et labore doloribus atque alias provident doloremque voluptatum in iusto adipisci debitis quia beatae illum obcaecati ullam harum fuga expedita aspernatur, cum maiores! Consequuntur soluta velit quas a, ex, sunt assumenda illo non esse corrupti accusantium!</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="menu-item-tile col-md-6">
+            <div class="row-item">
+               <div class="menu-item-photo">
+                  <div>S02</div>
+                  <img class="img-responsive" width="250" height="150" src="/assets/images/menu/steak-2.jpg" alt="lamb steak" >
+                  <p class="menu-item-price">12.95 €<span> (250g)</span><br>15.95 €<span> (400g)</span></p>
+                  <div class="menu-item-description">
+                     <h3 class="menu-item-title">Lamb Steak</h3>
+                     <p class="menu-item-details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere blanditiis sit omnis tenetur incidunt et labore doloribus atque alias provident doloremque voluptatum in iusto adipisci debitis quia beatae illum obcaecati ullam harum fuga expedita aspernatur, cum maiores! Consequuntur soluta velit quas a, ex, sunt assumenda illo non esse corrupti accusantium!</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="menu-item-tile col-md-6">
+            <div class="row-item">
+               <div class="menu-item-photo">
+                  <div>S03</div>
+                  <img class="img-responsive" width="250" height="150" src="/assets/images/menu/chicken-steak.jpg" alt="chicken steak" >
+                  <p class="menu-item-price">12.95 €<span> (250g)</span><br>15.95 €<span> (400g)</span></p>
+                  <div class="menu-item-description">
+                     <h3 class="menu-item-title">Chicken Steak</h3>
+                     <p class="menu-item-details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere blanditiis sit omnis tenetur incidunt et labore doloribus atque alias provident doloremque voluptatum in iusto adipisci debitis quia beatae illum obcaecati ullam harum fuga expedita aspernatur, cum maiores! Consequuntur soluta velit quas a, ex, sunt assumenda illo non esse corrupti accusantium! Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere blanditiis sit omnis tenetur incidunt et labore doloribus atque alias provident doloremque voluptatum in iusto adipisci debitis quia beatae illum obcaecati ullam harum fuga expedita aspernatur, cum maiores! Consequuntur soluta velit quas a, ex, sunt assumenda illo non esse corrupti accusantium!</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="menu-item-tile col-md-6">
+            <div class="row-item">
+               <div class="menu-item-photo">
+                  <div>S04</div>
+                  <img class="img-responsive" width="250" height="150" src="/assets/images/menu/salmon.jpg" alt="fish steak" >
+                  <p class="menu-item-price">12.95 €<span> (250g)</span><br>15.95 €<span> (400g)</span></p>
+                  <div class="menu-item-description">
+                     <h3 class="menu-item-title">Fish Steak</h3>
+                     <p class="menu-item-details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere blanditiis sit omnis tenetur incidunt et labore doloribus atque alias provident doloremque voluptatum in iusto adipisci debitis quia beatae illum obcaecati ullam harum fuga expedita aspernatur, cum maiores! Consequuntur soluta velit quas a, ex, sunt assumenda illo non esse corrupti accusantium!</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="menu-item-tile col-md-6">
+            <div class="row-item">
+               <div class="menu-item-photo">
+                  <div>S05</div>
+                  <img class="img-responsive" width="250" height="150" src="/assets/images/menu/steak-1.jpg" alt="beef steak" >
+                  <p class="menu-item-price">12.95 €<span> (250g)</span><br>15.95 €<span> (400g)</span></p>
+                  <div class="menu-item-description">
+                     <h3 class="menu-item-title">Beef Steak</h3>
+                     <p class="menu-item-details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere blanditiis sit omnis tenetur incidunt et labore doloribus atque alias provident doloremque voluptatum in iusto adipisci debitis quia beatae illum obcaecati ullam harum fuga expedita aspernatur, cum maiores! Consequuntur soluta velit quas a, ex, sunt assumenda illo non esse corrupti accusantium!</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="menu-item-tile col-md-6">
+            <div class="row-item">
+               <div class="menu-item-photo">
+                  <div>S06</div>
+                  <img class="img-responsive" width="250" height="150" src="/assets/images/menu/steak-1.jpg" alt="beef steak" >
+                  <p class="menu-item-price">12.95 €<span> (250g)</span><br>15.95 €<span> (400g)</span></p>
+                  <div class="menu-item-description">
+                     <h3 class="menu-item-title">Beef Steak</h3>
+                     <p class="menu-item-details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere blanditiis sit omnis tenetur incidunt et labore doloribus atque alias provident doloremque voluptatum in iusto adipisci debitis quia beatae illum obcaecati ullam harum fuga expedita aspernatur, cum maiores! Consequuntur soluta velit quas a, ex, sunt assumenda illo non esse corrupti accusantium!</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+   </main>
+
+   <footer class="panel-footer">
+      <div class="container">
+         <div class="row">
+            <section id="hours" class="col-sm-4 sect">
+               <span>Hours:</span><br>
+               Fri-Son: 12:00 - 24:00<br>
+               Tue-Thu: 12:00 - 22.00<br>
+               Mondays Closed
+               <hr class="visible-xs">
+            </section>
+            <section id="address" class="col-sm-4">
+               <span>Address:</span><br>
+               111, Somewhere Over the Rainbow<br>
+               40476 Düsseldorf<br>
+               <p>* Delivery area within 5 Km in 30 mins.</p>
+               <hr class="visible-xs">
+            </section>
+            <section id="testimonials" class="col-sm-4">
+               <span>Testimonials:</span><br>
+               <p>"The best Grillhouse in Düsseldorf!"</p>
+               <p>"Amazing food! Great service! Fast and friendly!"</p>
+               <hr class="visible-xs">
+            </section>
+         </div>
+         <div class="text-center">&copy; Developed by Murat Yasar, 2024</div>
+      </div>
+   </footer>
+
+   <!-- JQuery, Popper, Bootstrap -->
+   <script src="js/bootstrap.js"></script>
+   <script src="js/script.js"></script>
+</body>
+
+</html>
